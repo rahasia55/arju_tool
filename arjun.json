@@ -1,0 +1,12 @@
+{
+    "dialog_visibility": "INVISIBLE",
+    "min_version" : "3.9",
+    "dialog_title": "versi terbaru telah tersedia",
+    "dialog_message": "silahkan klik update aplikasi",
+    "redirect_app": "https://play.google.com/store/apps/details?id=com.IQ.InjectOr.id",
+    "tutor_file": "https://youtu.be/2lXNqFCVVbg?si=42ZMv7S6VGiir6QM",
+    "tutor_shizuku": "https://youtu.be/2lXNqFCVVbg?si=42ZMv7S6VGiir6QM",
+    "yt": "https://youtu.be/2lXNqFCVVbg?si=42ZMv7S6VGiir6QM",
+    "tiktok": "https://www.tiktok.com/@bang_op9?_t=8lZXOPGCaEK&_r=1",
+    "wa": "https://chat.whatsapp.com/DVfKiKtuOwDIWkNLGGPCI5"
+}
