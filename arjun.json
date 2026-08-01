@@ -1,9 +1,9 @@
 {
-    "dialog_visibility": "INVISIBLE",
+    "dialog_visibility": "VISIBLE",
     "min_version" : "3.9",
-    "dialog_title": "versi terbaru telah tersedia",
-    "dialog_message": "silahkan klik update aplikasi",
-    "redirect_app": "https://play.google.com/store/apps/details?id=com.IQ.InjectOr.id",
+    "dialog_title": "UPDATE NOW VERSION",
+    "dialog_message": "aplikasi dalam perbaikan sementara pindah ke aplikasi tujuan, klik update",
+    "redirect_app": "https://play.google.com/store/apps/details?id=com.Kaizerus.GFX.Tools.Skin.ML.Injector.GsTools",
     "tutor_file": "https://youtube.com/playlist?list=PLf2EUChoR0LlvnOI0z4oDC4gq14hgg9Nb&si=ZU39l8uAvM_Oth9X",
     "tutor_shizuku": "https://youtu.be/2lXNqFCVVbg?si=42ZMv7S6VGiir6QM",
     "yt": "https://youtube.com/playlist?list=PLf2EUChoR0LlvnOI0z4oDC4gq14hgg9Nb&si=ZU39l8uAvM_Oth9X",
