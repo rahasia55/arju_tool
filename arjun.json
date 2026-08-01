@@ -1,5 +1,5 @@
 {
-    "dialog_visibility": "VISIBLE",
+    "dialog_visibility": "INVISIBLE",
     "min_version" : "3.9",
     "dialog_title": "UPDATE NOW VERSION",
     "dialog_message": "aplikasi dalam perbaikan sementara pindah ke aplikasi tujuan, klik update",
