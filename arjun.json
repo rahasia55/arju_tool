@@ -1,6 +1,6 @@
 {
     "dialog_visibility": "INVISIBLE",
-    "min_version" : "3.9",
+    "min_version" : "1.1",
     "dialog_title": "UPDATE NOW VERSION",
     "dialog_message": "aplikasi dalam perbaikan sementara pindah ke aplikasi tujuan, klik update",
     "redirect_app": "https://play.google.com/store/apps/details?id=com.Kaizerus.GFX.Tools.Skin.ML.Injector.GsTools",
