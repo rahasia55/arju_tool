@@ -5,7 +5,6 @@ from datetime import datetime, timezone, timedelta
 LINK_A = "https://play.google.com/store/apps/details?id=com.ML.ToolsGFX.MLSkinInjector"
 LINK_B = "https://play.google.com/store/apps/details?id=com.ex.wallpaper"
 
-
 FILE_PATH = "arjun.html"
 
 
@@ -13,13 +12,16 @@ def main():
     with open(FILE_PATH, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    # Hitung hari ke- (epoch day) berdasarkan waktu WIB (UTC+7)
+    # Waktu WIB (UTC+7)
     wib = timezone(timedelta(hours=7))
     now_wib = datetime.now(wib)
-    epoch_day = (now_wib.date() - datetime(1970, 1, 1, tzinfo=wib).date()).days
 
-    # Hari genap -> LINK_A, hari ganjil -> LINK_B
-    chosen = LINK_A if epoch_day % 2 == 0 else LINK_B
+    # Hari ke berapa sejak tanggal patokan (bisa diganti sesuai kebutuhan)
+    tanggal_mulai = datetime(2026, 8, 4, tzinfo=wib).date()
+    hari_ke = (now_wib.date() - tanggal_mulai).days
+
+    # Gantian setiap hari: hari ke-0 -> LINK_B, hari ke-1 -> LINK_A, hari ke-2 -> LINK_B, dst
+    chosen = LINK_B if hari_ke % 2 == 0 else LINK_A
 
     if isinstance(data, list):
         data[0]["Link"] = chosen
