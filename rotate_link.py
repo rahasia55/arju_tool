@@ -2,8 +2,9 @@ import json
 from datetime import datetime, timezone, timedelta
 
 # 2 link yang akan gantian tiap hari
-LINK_A = "https://play.google.com/store/apps/details?id=com.ex.wallpaper"
-LINK_B = "https://play.google.com/store/apps/details?id=com.ML.ToolsGFX.MLSkinInjector"
+LINK_A = "https://play.google.com/store/apps/details?id=com.ML.ToolsGFX.MLSkinInjector"
+LINK_B = "https://play.google.com/store/apps/details?id=com.ex.wallpaper"
+
 
 FILE_PATH = "arjun.html"
 
